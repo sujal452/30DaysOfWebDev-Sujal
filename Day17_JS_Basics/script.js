@@ -11,12 +11,7 @@ let subjects = ["HTML", "CSS", "JS"];
 console.log(typeof isStudent, typeof score, typeof subjects);
 
 // 3️⃣ Functions
-// function greet(user) {
-//   return "Hello, " + user + "!";
-// }
-// console.log(greet("Sujal"));
 
-//3 function
 function test(user){
     return "hello," + user +"!";
 }
