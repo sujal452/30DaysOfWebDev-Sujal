@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Day 19 – JS DataTypes & Form Validation</title>
+  <style>
+    body{
+        text-align: center;
+        
+    }
+    h2{
+        color: rgb(255, 238, 0);
+    }
+   
+    button{
+        color: rgb(255, 0, 0);
+        background-color: black;
+        border: 1px;
+        
+    }
+  </style>
+</head>
+<body>
+  <h2>Form Validation</h2>
+  <form onsubmit="return validateForm()">
+    <label>Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label>Age:</label>
+    <input type="number" id="age"><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="message"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
