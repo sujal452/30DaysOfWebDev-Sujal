@@ -22,3 +22,7 @@ function addTask() {
   ul.appendChild(li);
   input.value = ""; // clear input after adding
 }
+
+
+
+
