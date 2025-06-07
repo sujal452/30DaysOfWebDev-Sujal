@@ -1,10 +1,16 @@
 
 
 // 1️⃣ Variables
-let name = "Sujal";
-const age = 21;
-var city = "Dharamshala";
-console.log("Name:", name, "Age:", age, "City:", city);
+// let name = "Sujal";
+// const age = 21;
+// var city = "Dharamshala";
+// console.log("Name:", name, "Age:", age, "City:", city);
+
+
+let name ="sujal";
+var age = 21;
+const city ="thora";
+console.log("name ", name , "age", age, "city",city);
 
 
 // let name ="sujal";
@@ -32,6 +38,13 @@ console.log(typeof isStudent,typeof score, typeof subject
 
 // function test(user){
 //     return "hello," + user +"!";
+// }
+// console.log(test("sujal"));
+
+
+// function test(user){
+//     return "hello", + user +"!";
+    
 // }
 // console.log(test("sujal"));
 
@@ -75,7 +88,16 @@ console.log("fail")
 
 
 
+// let marks = 40;
+// if (marks >=90){
+//     console.log("gradeA");
+// }
+// else if (marks >80){
+//     console.log("gradeB");
+// }
+// else { console.log("fail");
 
+// }
 
 
 // 5️⃣ Loops
@@ -85,6 +107,10 @@ for (let i = 1; i<=3; i++){
 }
 
 
+
+// for (let i=1; i<=5 ; i++){
+//     console.log("show" , i);
+// }
 
 
 

@@ -22,7 +22,17 @@ function addTask() {
   ul.appendChild(li);
   input.value = ""; // clear input after adding
 }
+function addTask() {
+  const input = document.getElementById("taskInput");
+  const task = input.value.trim();
+
+if (task === ""){
+  alert("ebter a task");
+  return;
+}
+const ul = document.getElementById("taskImput");
+const li = document.createElement("li");
+li.textContent=task;
 
 
-
-
+}

@@ -16,5 +16,5 @@ function validateForm() {
   }
 
   msg.textContent = `✅ Welcome, ${name}! You're eligible.`;
-  return false; // to prevent actual form submission for now
+  return true; // to prevent actual form submission for now
 }
