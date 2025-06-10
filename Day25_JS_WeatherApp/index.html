@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Weather Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-card">
+        <div class="location">
+            <h1 id="city">Local Area</h1>
+            <p id="date">Loading date...</p>
+        </div>
+        
+        <div class="weather-icon" id="weather-icon">☀️</div>
+        
+        <div class="temp-container">
+            <span id="temp">24</span>
+            <span class="deg">°C</span>
+        </div>
+        
+        <div class="weather-desc" id="weather-desc">Sunny</div>
+        
+        <div class="details">
+            <div class="detail-item">
+                <span>💧</span>
+                <span id="humidity">50%</span>
+            </div>
+            <div class="detail-item">
+                <span>🌬️</span>
+                <span id="wind">5 km/h</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
